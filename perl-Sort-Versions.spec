@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Sort
 %define		pnam	Versions
@@ -21,7 +25,8 @@ Summary(zh_CN):	Sort::Versions Perl Ä£¿é
 Name:		perl-Sort-Versions
 Version:	1.5
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5434f948fdea6406851c77bebbd0ed19
@@ -50,10 +55,13 @@ RCS.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests: %{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
