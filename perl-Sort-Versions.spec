@@ -5,7 +5,7 @@ Summary:	Sort::Versions Perl module
 Summary(pl):	Modu³ Perla Sort::Versions
 Name:		perl-Sort-Versions
 Version:	1.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
