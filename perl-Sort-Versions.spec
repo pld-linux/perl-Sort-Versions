@@ -19,12 +19,12 @@ Summary(sv):	Sort::Versions Perlmodul
 Summary(uk):	Модуль для Perl Sort::Versions
 Summary(zh_CN):	Sort::Versions Perl дё©И
 Name:		perl-Sort-Versions
-Version:	1.4
-Release:	4
+Version:	1.5
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	58d447707fa9d252873dc34b70c507ee
+# Source0-md5:	5434f948fdea6406851c77bebbd0ed19
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-SortVersions
