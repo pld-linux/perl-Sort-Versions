@@ -2,10 +2,25 @@
 %define		pdir	Sort
 %define		pnam	Versions
 Summary:	Sort::Versions Perl module
-Summary(pl):	Modu³ Perla Sort::Versions
+Summary(cs):	Modul Sort::Versions pro Perl
+Summary(da):	Perlmodul Sort::Versions
+Summary(de):	Sort::Versions Perl Modul
+Summary(es):	Módulo de Perl Sort::Versions
+Summary(fr):	Module Perl Sort::Versions
+Summary(it):	Modulo di Perl Sort::Versions
+Summary(ja):	Sort::Versions Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Sort::Versions ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Sort::Versions
+Summary(pl):	Modu³ perla Sort::Versions
+Summary(pt_BR):	Módulo Perl Sort::Versions
+Summary(pt):	Módulo de Perl Sort::Versions
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Sort::Versions
+Summary(sv):	Sort::Versions Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Sort::Versions
+Summary(zh_CN):	Sort::Versions Perl Ä£¿é
 Name:		perl-Sort-Versions
 Version:	1.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -43,6 +58,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc README Changes
 %{perl_sitelib}/Sort/Versions.pm
 %{_mandir}/man3/*
