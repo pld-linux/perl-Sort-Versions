@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Sort
-%define		pnam	Versions
+%define	pdir	Sort
+%define	pnam	Versions
 Summary:	Sort::Versions Perl module
 Summary(cs):	Modul Sort::Versions pro Perl
 Summary(da):	Perlmodul Sort::Versions
