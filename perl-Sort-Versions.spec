@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Sort::Versions
 Summary(it):	Modulo di Perl Sort::Versions
 Summary(ja):	Sort::Versions Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Sort::Versions ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Sort::Versions
+Summary(nb):	Perlmodul Sort::Versions
 Summary(pl):	Modu³ perla Sort::Versions
 Summary(pt_BR):	Módulo Perl Sort::Versions
 Summary(pt):	Módulo de Perl Sort::Versions
