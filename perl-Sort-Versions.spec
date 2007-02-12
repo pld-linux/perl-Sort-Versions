@@ -6,22 +6,22 @@
 %define		pdir	Sort
 %define		pnam	Versions
 Summary:	Sort::Versions Perl module
-Summary(cs):	Modul Sort::Versions pro Perl
-Summary(da):	Perlmodul Sort::Versions
-Summary(de):	Sort::Versions Perl Modul
-Summary(es):	MÛdulo de Perl Sort::Versions
-Summary(fr):	Module Perl Sort::Versions
-Summary(it):	Modulo di Perl Sort::Versions
-Summary(ja):	Sort::Versions Perl •‚•∏•Â°º•Î
-Summary(ko):	Sort::Versions ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Sort::Versions
-Summary(pl):	Modu≥ perla Sort::Versions
-Summary(pt_BR):	MÛdulo Perl Sort::Versions
-Summary(pt):	MÛdulo de Perl Sort::Versions
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Sort::Versions
-Summary(sv):	Sort::Versions Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Sort::Versions
-Summary(zh_CN):	Sort::Versions Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Sort::Versions pro Perl
+Summary(da.UTF-8):   Perlmodul Sort::Versions
+Summary(de.UTF-8):   Sort::Versions Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Sort::Versions
+Summary(fr.UTF-8):   Module Perl Sort::Versions
+Summary(it.UTF-8):   Modulo di Perl Sort::Versions
+Summary(ja.UTF-8):   Sort::Versions Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Sort::Versions ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Sort::Versions
+Summary(pl.UTF-8):   Modu≈Ç perla Sort::Versions
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Sort::Versions
+Summary(pt.UTF-8):   M√≥dulo de Perl Sort::Versions
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Sort::Versions
+Summary(sv.UTF-8):   Sort::Versions Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Sort::Versions
+Summary(zh_CN.UTF-8):   Sort::Versions Perl Ê®°Âùó
 Name:		perl-Sort-Versions
 Version:	1.5
 Release:	2
@@ -41,10 +41,10 @@ Sort::Versions allows easy sorting of mixed non-numeric and numeric
 strings, like the "version numbers" that many shared library systems
 and revision control packages use.
 
-%description -l pl
-Modu≥ Sort::Versions umoøliwia ≥atwe sortowanie ≥aÒcuchÛw z≥oøonych z
-przemieszanych znakÛw alfanumerycznych, takich jak numery wersji
-bibliotek dzielonych lub numery rewizji uøywanych przez programy typu
+%description -l pl.UTF-8
+Modu≈Ç Sort::Versions umo≈ºliwia ≈Çatwe sortowanie ≈Ça≈Ñcuch√≥w z≈Ço≈ºonych z
+przemieszanych znak√≥w alfanumerycznych, takich jak numery wersji
+bibliotek dzielonych lub numery rewizji u≈ºywanych przez programy typu
 RCS.
 
 %prep
