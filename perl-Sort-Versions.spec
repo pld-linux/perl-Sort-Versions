@@ -6,22 +6,22 @@
 %define		pdir	Sort
 %define		pnam	Versions
 Summary:	Sort::Versions Perl module
-Summary(cs.UTF-8):   Modul Sort::Versions pro Perl
-Summary(da.UTF-8):   Perlmodul Sort::Versions
-Summary(de.UTF-8):   Sort::Versions Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Sort::Versions
-Summary(fr.UTF-8):   Module Perl Sort::Versions
-Summary(it.UTF-8):   Modulo di Perl Sort::Versions
-Summary(ja.UTF-8):   Sort::Versions Perl モジュール
-Summary(ko.UTF-8):   Sort::Versions 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Sort::Versions
-Summary(pl.UTF-8):   Moduł perla Sort::Versions
-Summary(pt_BR.UTF-8):   Módulo Perl Sort::Versions
-Summary(pt.UTF-8):   Módulo de Perl Sort::Versions
-Summary(ru.UTF-8):   Модуль для Perl Sort::Versions
-Summary(sv.UTF-8):   Sort::Versions Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Sort::Versions
-Summary(zh_CN.UTF-8):   Sort::Versions Perl 模块
+Summary(cs.UTF-8):	Modul Sort::Versions pro Perl
+Summary(da.UTF-8):	Perlmodul Sort::Versions
+Summary(de.UTF-8):	Sort::Versions Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Sort::Versions
+Summary(fr.UTF-8):	Module Perl Sort::Versions
+Summary(it.UTF-8):	Modulo di Perl Sort::Versions
+Summary(ja.UTF-8):	Sort::Versions Perl モジュール
+Summary(ko.UTF-8):	Sort::Versions 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Sort::Versions
+Summary(pl.UTF-8):	Moduł perla Sort::Versions
+Summary(pt_BR.UTF-8):	Módulo Perl Sort::Versions
+Summary(pt.UTF-8):	Módulo de Perl Sort::Versions
+Summary(ru.UTF-8):	Модуль для Perl Sort::Versions
+Summary(sv.UTF-8):	Sort::Versions Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Sort::Versions
+Summary(zh_CN.UTF-8):	Sort::Versions Perl 模块
 Name:		perl-Sort-Versions
 Version:	1.5
 Release:	2
