@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Sort::Versions
 Summary(zh_CN.UTF-8):	Sort::Versions Perl 模块
 Name:		perl-Sort-Versions
 Version:	1.5
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
