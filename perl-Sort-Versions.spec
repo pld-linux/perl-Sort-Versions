@@ -5,31 +5,17 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Sort
 %define		pnam	Versions
-Summary:	Sort::Versions Perl module
-Summary(cs.UTF-8):	Modul Sort::Versions pro Perl
-Summary(da.UTF-8):	Perlmodul Sort::Versions
-Summary(de.UTF-8):	Sort::Versions Perl Modul
-Summary(es.UTF-8):	Módulo de Perl Sort::Versions
-Summary(fr.UTF-8):	Module Perl Sort::Versions
-Summary(it.UTF-8):	Modulo di Perl Sort::Versions
-Summary(ja.UTF-8):	Sort::Versions Perl モジュール
-Summary(ko.UTF-8):	Sort::Versions 펄 모줄
-Summary(nb.UTF-8):	Perlmodul Sort::Versions
-Summary(pl.UTF-8):	Moduł perla Sort::Versions
-Summary(pt_BR.UTF-8):	Módulo Perl Sort::Versions
-Summary(pt.UTF-8):	Módulo de Perl Sort::Versions
-Summary(ru.UTF-8):	Модуль для Perl Sort::Versions
-Summary(sv.UTF-8):	Sort::Versions Perlmodul
-Summary(uk.UTF-8):	Модуль для Perl Sort::Versions
-Summary(zh_CN.UTF-8):	Sort::Versions Perl 模块
+Summary:	Sort::Versions Perl module - sorting of revision-like numbers
+Summary(pl.UTF-8):	Moduł Perla Sort::Versions - sortowanie liczb typu numery rewizji
 Name:		perl-Sort-Versions
 Version:	1.5
 Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Sort/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5434f948fdea6406851c77bebbd0ed19
+URL:		http://search.cpan.org/dist/Sort-Versions/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-SortVersions
@@ -70,4 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README Changes
 %{perl_vendorlib}/Sort/Versions.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Sort::Versions.3pm*
