@@ -8,13 +8,13 @@
 Summary:	Sort::Versions Perl module - sorting of revision-like numbers
 Summary(pl.UTF-8):	Moduł Perla Sort::Versions - sortowanie liczb typu numery rewizji
 Name:		perl-Sort-Versions
-Version:	1.5
-Release:	3
+Version:	1.62
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Sort/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5434f948fdea6406851c77bebbd0ed19
+# Source0-md5:	c975afa9dd114951d902aa4a81ead685
 URL:		http://search.cpan.org/dist/Sort-Versions/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
